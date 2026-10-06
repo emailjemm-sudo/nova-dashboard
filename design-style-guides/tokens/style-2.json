@@ -1,0 +1,22 @@
+{
+  "style": "2 — Scribble / hand-drawn (children)",
+  "palette": "palette-kids.json",
+  "page": {"size": "A4 portrait + US Letter export", "margin_mm": 12, "grid_columns": 4, "gutter_mm": 8, "hero_drawing_pct": [40, 60]},
+  "typography": {
+    "title": {"font": "Mintmolly", "fallback": ["Delius Swash Caps", "Gaegu Bold"], "kicker_pt": [14, 16], "title_pt": [36, 44], "tracking_pct": [30, 40]},
+    "card_title": {"font": "Kollektif Bold", "fallback": "Glacial Indifference Bold", "size_pt": [12, 13], "case": "upper"},
+    "body": {"font": "Open Sans Light", "size_pt": [10.5, 11.5], "colour": "ink"},
+    "emphasis": {"font": "Open Sans Bold"},
+    "secondary": {"font": "Glacial Indifference", "size_pt": [10, 12]},
+    "footer": {"font": "Open Sans", "size_pt": 9, "text": "Provided by **Gentle Observations**"}
+  },
+  "components": {
+    "scribble_fill": {"angle_deg": 45, "stroke_pt": [1.5, 2.5], "spacing_pt": [2, 3], "overshoot_mm": [1, 2], "colours": "tool.* only"},
+    "line_icon": {"stroke_pt": 2, "colour": "ink", "size_mm": [18, 28], "blob_fill": "tint.*"},
+    "content_box": {"outer_stroke_pt": 1.5, "radius_mm": 4, "inner_dashed_pt": 1, "inset_mm": 3},
+    "card": {"size_mm": [90, 130], "per_a4": "2x2", "gap_mm": 6, "title_band_mm": 14},
+    "step_path": {"shape": "S-curve", "segments": "scribble-filled tool colours", "checkbox_rotation_deg": [-10, 10]},
+    "coloured_page": {"allowed_for": "intro/story pages only", "fills": ["#E2BE42", "#98BDD3", "#96D599", "#F8A281"], "text": "white or cream"}
+  },
+  "rules": ["black outlines only", "colour appears only as scribble fill or tint blob", "one hero drawing per page", "no flat vector fills with torn edges", "no gradients"]
+}

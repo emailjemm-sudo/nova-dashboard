@@ -1,0 +1,37 @@
+{
+  "style": "3 — Editorial (adults / clinicians)",
+  "page": {"size": "A4 portrait + US Letter export", "margin_outer_mm": 15, "margin_inner_mm": 12, "grid_columns": 12, "gutter_mm": 5, "module_mm": 10, "max_diagrams": 1},
+  "typography": {
+    "headline": {"font": "Playfair Display Bold", "field_guide_font": "Libre Baskerville Bold", "size_pt": [30, 36], "cover_pt": [60, 72], "colour": "ink.navy | ink.black"},
+    "standfirst": {"font": "Playfair Display Italic", "size_pt": [14, 16]},
+    "panel_heading": {"font": "Playfair Display Bold", "size_pt": [12, 13]},
+    "chip": {"font": "Inter Medium", "size_pt": 8, "case": "upper", "tracking_pct": 10},
+    "body": {"font": "Inter", "fallback": "Open Sans", "size_pt": [10, 10.5], "line_height": 1.4},
+    "table_header": {"font": "Inter Semibold", "size_pt": 8.5, "case": "upper", "colour": "white"},
+    "table_body": {"font": "Inter", "size_pt": [9, 9.5]},
+    "footer": {"font": "Inter", "size_pt": 7.5, "text": "Provided By Gentle Observations © <year> · <Section> · Page X of Y"}
+  },
+  "palette_workbook": {
+    "ink.navy": "#1C2C4D", "ink.body": "#2B2B2B", "ink.muted": "#6B6F76",
+    "blue.mid": "#7D9BCE", "blue.deep": "#697B9A", "accent.sage": "#86886A", "accent.tan": "#B4A392", "accent.rose": "#C9A5A0",
+    "tint.blue": "#DCE1EF", "tint.sage": "#E9EBE4", "tint.rose": "#F2E2E0", "tint.sand": "#EFE9E1",
+    "paper": "#FFFFFF", "rule": "#C9CDD3"
+  },
+  "palette_field_guide": {
+    "paper.cream": "#F4F1E9", "ink.black": "#1C1C1B", "accent.olive": "#6B6B47", "accent.terracotta": "#B5523A",
+    "accent.tan": "#B4A392", "panel.grey": "#E9E5DE", "rule": "#B1ADA8"
+  },
+  "step_colour_order": ["blue.mid", "accent.sage", "accent.tan", "ink.navy"],
+  "components": {
+    "section_chip": {"height_mm": 6, "fill": "blue.mid", "position": "top-left"},
+    "callout_panel": {"radius_mm": 2, "left_rule_pt": 3, "fills": ["tint.blue", "tint.sage", "tint.rose", "tint.sand"]},
+    "checklist_grid": {"columns": 2, "checkbox_mm": 5, "checkbox_stroke": "blue.mid"},
+    "comparison_table": {"header_fills": ["ink.navy", "accent.sage"], "rule_pt": 0.5, "zebra": "tint.sand"},
+    "numbered_step": {"size_mm": 9, "numeral": "serif bold 14 pt white"},
+    "tier_bar": {"height_mm": 10, "fills": ["blue.mid", "accent.sage", "accent.tan"]},
+    "diagrams": ["timeline", "loop", "tier ladder", "network dots (cover only)", "formula row", "icon triptych"],
+    "reflection_panel": {"fill": "tint.blue", "dotted_rule_spacing_mm": 8},
+    "icons": {"style": "single-weight line, 1 pt", "size_mm": [7, 12]}
+  },
+  "rules": ["one serif + one sans", "no photos inside products", "no gradients or shadows", "body copy left aligned", "warm accent on max one element per page"]
+}

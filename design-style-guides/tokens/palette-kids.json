@@ -1,0 +1,28 @@
+{
+  "name": "Gentle Observations — Kids palette (Styles 1 & 2)",
+  "derived_from": [
+    "Inside Out 2 Therapy Coping Skill Board Game (wix: inside-out-2-emotional-regulation-board-game-for-kids)",
+    "Inside Out 2 Emotions & Coping Skill Cards (wix: inside-out-2-coping-skill-flashcards; A4 - INSIDE OUT 2 FLASHCARDS.pdf)",
+    "Coping Skills Toolbox for Kids (wix: coping-skills-toolbox-for-kids; A4 - Coping Skills Toolbox .pdf)"
+  ],
+  "tool": {
+    "mustard": "#E2BE42", "apricot": "#F8BB5D", "coral": "#F27D8A", "terracotta": "#C36757",
+    "blush": "#DDA6A7", "lilac": "#BD8FC0", "steel": "#779EB7", "aqua": "#9BC6C2",
+    "olive": "#AEB271", "lime": "#D1D67B", "mint": "#B4D19C", "sand": "#D9BCA3", "mist": "#ADBEB2"
+  },
+  "tool_order": ["steel","olive","apricot","aqua","lilac","mint","mustard","blush","coral","terracotta","sand","mist"],
+  "tint": {
+    "anger": {"base": "#EEB5BE", "wash": "#F5DBDF"},
+    "anxiety": {"base": "#F3CFC3", "wash": "#F5DFD7"},
+    "joy": {"base": "#F3E1BE", "wash": "#EDE3CF"},
+    "disgust": {"base": "#D9E0C9", "wash": "#E8ECDB"},
+    "envy": {"base": "#CDE4DF", "wash": "#DCEDE9"},
+    "sadness": {"base": "#BDD1E6", "wash": "#DFE8F0"},
+    "ennui": {"base": "#B9BDD1", "wash": "#E7E9F0"},
+    "fear": {"base": "#D7C9DF", "wash": "#E9DFEF"},
+    "embarrassment": {"base": "#F4D1D7", "wash": "#F9E4E8"}
+  },
+  "deep": {"wine": "#9C4B5F", "ochre": "#BAA275", "sage": "#697D73", "blue": "#7797B7", "slate": "#39455F", "plum": "#554660"},
+  "neutral": {"paper": "#FFFFFF", "paper_warm": "#F6F4F2", "cream": "#EDE3CF", "ink": "#222222", "charcoal": "#464436", "rule": "#B5B5B5"},
+  "emotion_colour_coding": {"joy": "yellow", "sadness": "blue", "anger": "red-pink", "disgust": "green", "fear": "purple", "anxiety": "orange-peach", "envy": "teal", "embarrassment": "pink", "ennui": "slate-lavender"}
+}

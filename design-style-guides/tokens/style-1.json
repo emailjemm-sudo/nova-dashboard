@@ -1,0 +1,26 @@
+{
+  "style": "1 — Paper-cut collage (children)",
+  "palette": "palette-kids.json",
+  "page": {"size": "A4 portrait + US Letter export", "margin_mm": 12, "grid_columns": 6, "gutter_mm": 6, "max_colour_panels": 5, "max_motifs": 3},
+  "typography": {
+    "title": {"font": "Rockinsoda", "fallback": "Caveat Brush", "size_pt": [32, 40], "case": "upper", "colour": "ink"},
+    "cover_title": {"font": "Bree Serif", "size_pt": [60, 72], "colour": "tool.terracotta"},
+    "section_label": {"font": "Glacial Indifference Bold", "size_pt": [13, 14], "pattern": "01 — Label"},
+    "body": {"font": "Open Sans", "size_pt": [11, 12], "line_height": 1.45, "colour": "ink"},
+    "hand_prompt": {"font": "Patrick Hand", "fallback": "Short Stack", "size_pt": [13, 14]},
+    "chip": {"font": "Glacial Indifference Bold", "size_pt": [9, 10], "case": "upper", "tracking_pct": 8},
+    "footer": {"font": "Open Sans", "size_pt": 9, "text": "Provided by **Gentle Observations**"}
+  },
+  "components": {
+    "title_strip": {"height_mm": [22, 28], "width_pct": [70, 85], "edge": "torn all sides, 2–4 mm amplitude", "rotation_deg": [-2, 2], "tape_tabs": 2},
+    "panel": {"fill": "tool colour (small) or emotion tint (writing areas)", "edge": "torn on 2+ sides", "grain_pct": [4, 6], "rotation_deg": [-2, 2]},
+    "writing_line": {"style": "dotted", "weight_pt": 0.75, "spacing_mm": [9, 10], "colour": "rule"},
+    "washi_tape": {"width_mm": [10, 14], "length_mm": [28, 40], "rotation_deg": [30, 45], "opacity": 0.8, "max_per_page": 4},
+    "scrap_note": {"size_mm": [35, 60], "fill": "cream or emotion tint"},
+    "chip": {"height_mm": 6, "fill": ["tool.steel", "tool.olive"], "text": "white caps"},
+    "matisse_illustration": {"shapes_per_figure": [3, 7], "outline": "none", "gradient": "none", "paper_edge_gap_mm": 1},
+    "scenario_card": {"size_mm": [63, 88], "per_a4": "3x3", "background": "paper_warm"},
+    "checkbox": {"size_mm": 6, "stroke_pt": 1, "radius_mm": 2}
+  },
+  "rules": ["no gradients, glows, bevels", "no outlines on paper shapes", "one display font per page", "white page background on worksheets", "gender-neutral figures"]
+}
